@@ -4,3 +4,24 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #010758, #490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.container .title{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.container .title span{
+    color: #ff2963;
+}
