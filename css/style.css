@@ -43,3 +43,30 @@
     font-size: 16px;
     color: #ddd;
 }
+
+.container .option{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container .option button{
+    background: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+.container .option button:hover{
+    background: #fc688f;
+}
+.container .option button img{
+    width: 16px;
+    margin-right: 10px;
+}
